@@ -50,7 +50,7 @@ def load_and_preprocess_data(data_path, sampling_rate=16000, duration=2):
     return np.array(data), np.array(labels)
 
 # Define paths to the dataset
-data_path = r"D:\Air_compressor\AirDataset\AirCompressorDataset"
+data_path = r"\Air_compressor\AirDataset\AirCompressorDataset"
 
 # Load and preprocess data
 X, y = load_and_preprocess_data(data_path)
