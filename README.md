@@ -79,7 +79,7 @@ AirCompressorDataset/
 ### Step 4: Predict New Audio Files
 - Provide the path to a new `.wav` file:
   ```python
-  new_file_path = r"D:\Air_compressor\AirDataset\AirCompressorTest\Healthy\preprocess_Reading200.wav"
+  new_file_path = r"\Air_compressor\AirDataset\AirCompressorTest\Healthy\preprocess_Reading200.wav"
   ```
 - Get the prediction:
   ```python
